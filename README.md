@@ -24,3 +24,6 @@ POSTMAN:
     CommandLineRunner is an interface used to indicate that a bean should run when it is contained within a SpringApplication
     CommandLine is a program that takes commands in and operate through your computer system to run.
     @bean annotation is used to represent any class or method as logical unit of reusable code in an application
+    
+    Enums in Java:
+    Enumerations serve the purpose of representing a group of named constants in a programming language.
