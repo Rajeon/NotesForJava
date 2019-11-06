@@ -9,10 +9,10 @@ CROSS ORIGIN RESOURCE SHARING
 POSTMAN:
  Postman is a powerful HTTP client for testing web services. Created by Abhinav Asthana, a programmer and designer based in Bangalore, India, Postman makes it easy to test, develop and document APIs by allowing users to quickly put together both simple and complex HTTP requests
  POSTMAN COMMANDS:
- POST- POST DATA,
- GET- RETRIEVE DATA,
- PUT- PLACE THE DATA,
- DELETE- DELETE ALL DATA 
+ POST - HTTP POST requests supply additional data from the client (browser) to the server in the message body.
+ GET - GET requests include all required data in the URL.
+ PUT - The PUT method requests that the enclosed entity be stored under the supplied Request-URI.
+ DELETE - The DELETE method requests that the origin server delete the resource identified by the Request-URI. 
  
  Mockito:
  Mockito is a mocking framework, JAVA-based library that is used for effective unit testing of JAVA applications. Mockito is used to mock interfaces so that a dummy functionality can be added to a mock interface that can be used in unit testing. Mockito facilitates creating mock objects seamlessly. It uses Java Reflection in order to create mock objects for a given interface. Mock objects are nothing but proxy for actual implementations.
