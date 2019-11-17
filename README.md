@@ -39,3 +39,48 @@ Used effectively, microservice architectures allow you to scale your application
 
 Why spring boot is used for Microservices?
 Spring Boot enables building production-ready applications quickly and provides non-functional features: Embedded servers which are easy to deploy with the containers. It helps in monitoring the multiples components. It helps in configuring the components externally.
+
+A microservice is a small, loosely coupled distributed service. Microservice Architectures evolved as a solution to the scalability and innovation challenges with Monolith architectures (Monolith applications are typically huge – more 100, 000 line of code). It allows you to take a large application and decompose or break into easily manageable small components with narrowly defined responsibilities.
+
+
+Reasons to use microservices:
+For a large application, it is difficult to understand the complexity and make code changes fast and correctly, sometimes it becomes hard to manage the code.
+Applications need extensive manual testing to ensure the impact of changes.
+For small change, the whole application needs to be built and deployed.
+The heavy application slows down start-up time.
+
+
+Benefits of microservices:
+Small Modules –
+Application is broken into smaller modules which are easy for developers to code and maintain.
+Easier Process Adaption –
+By using microservices, new Technology & Process Adaption becomes easier. You can try new technologies with the newer microservices that we use.
+Independent scaling –
+Each microservice can scale independently via X-axis scaling (cloning with more CPU or memory) and Z-axis scaling (sharding), based upon their needs.
+Unaffected –
+Large applications remain largely unaffected by the failure of a single module.
+DURS –
+Each service can be independently DURS (deployed, updated, replaced, and scaled).
+
+
+Restrictions of microservices:
+Configuration Management –
+As it becomes granular the headache comes for configuring the services and monitoring those. You need to maintain configurations for hundreds of components across environments.
+Debugging –
+Tracking down the service failure is painstaking job. You might need to look into multiple services across different components. Centralized Logging and Dashboards are essential to make it easy to debug problems.
+Automation – Because there are a number of smaller components instead of a monolith, you need to automate everything – Builds, Deployment, Monitoring etc.
+Testing –
+Needs a greater effort for end to end testing as it needs all the dependent services to be up and running.
+
+
+Microservice frameworks for java:
+There are several microservices frameworks that you can use for developing for Java. Some of these are:
+
+Spring Boot –
+This is probably the best Java microservices framework that works on top of languages for Inversion of Control, Aspect Oriented Programming, and others.
+Dropwizard –
+Dropwizard pulls together stable, mature libraries from the Java ecosystem into a simple, light-weight package that lets you focus on getting things done.
+Restlet –
+Restlet Framework helps Java developers build better web APIs that follow the REST architecture style.
+Spark –
+A micro-framework for creating web applications in Kotlin and Java 8 with minimal effort.
