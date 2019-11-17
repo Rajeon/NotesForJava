@@ -27,3 +27,15 @@ POSTMAN:
     
     Enums in Java:
     Enumerations serve the purpose of representing a group of named constants in a programming language.
+
+
+Microservices:
+Microservices are a form of service-oriented architecture style (one of the most important skills for Java developers) wherein applications are built as a collection of different smaller services rather than one whole app.
+
+Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services. In a microservices architecture, services are fine-grained and the protocols are lightweight.
+
+Microservices, when used effectively, pay off
+Used effectively, microservice architectures allow you to scale your application as the number of developers working on your application increases. ... That means keep tracking each time a new service is added to your system or a new connection between microservices is made
+
+Why spring boot is used for Microservices?
+Spring Boot enables building production-ready applications quickly and provides non-functional features: Embedded servers which are easy to deploy with the containers. It helps in monitoring the multiples components. It helps in configuring the components externally.
