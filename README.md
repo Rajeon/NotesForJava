@@ -84,3 +84,6 @@ Restlet –
 Restlet Framework helps Java developers build better web APIs that follow the REST architecture style.
 Spark –
 A micro-framework for creating web applications in Kotlin and Java 8 with minimal effort.
+
+Lambda Functions:
+Java lambda expressions are Java's first step into functional programming. A Java lambda expression is thus a function which can be created without belonging to any class. A Java lambda expression can be passed around as if it was an object and executed on demand.
