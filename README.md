@@ -87,3 +87,27 @@ A micro-framework for creating web applications in Kotlin and Java 8 with minima
 
 Lambda Functions:
 Java lambda expressions are Java's first step into functional programming. A Java lambda expression is thus a function which can be created without belonging to any class. A Java lambda expression can be passed around as if it was an object and executed on demand.
+
+
+UML: 
+Unified Modeling Language (UML) is a general purpose modelling language. The main aim of UML is to define a standard way to visualize the way a system has been designed. ... UML is not a programming language, it is rather a visual language. We use UML diagrams to portray the behavior and structure of a system
+
+UML is not a programming language, it is rather a visual language. We use UML diagrams to portray the behavior and structure of a system. UML helps software engineers, businessmen and system architects with modelling, design and analysis. The Object Management Group (OMG) adopted Unified Modelling Language as a standard in 1997. Its been managed by OMG ever since. International Organization for Standardization (ISO) published UML as an approved standard in 2005. UML has been revised over the years and is reviewed periodically
+
+Lambda Parameters:
+Since Java lambda expressions are effectively just methods, lambda expressions can take parameters just like methods. The (oldState, newState) part of the lambda expression shown earlier specifies the parameters the lambda expression takes. These parameters have to match the parameters of the method on the single method interface. In this case, these parameters have to match the parameters of the onStateChange() method of the StateChangeListener interface
+
+Matching Lambdas to Interfaces:
+A single method interface is also sometimes referred to as a functional interface. Matching a Java lambda expression against a functional interface is divided into these steps:
+
+Does the interface have only one abstract (unimplemented) method?
+Does the parameters of the lambda expression match the parameters of the single method?
+Does the return type of the lambda expression match the return type of the single method?
+If the answer is yes to these three questions, then the given lambda expression is matched successfully against the interface.
+
+Interfaces With Default and Static Methods
+From Java 8 a Java interface can contain both default methods and static methods. Both default methods and static methods have an implementation defined directly in the interface declaration. This means, that a Java lambda expression can implement interfaces with more than one method - as long as the interface only has a single unimplemented (AKA abstract) method.
+
+In other words, an interface is still a functional interface even if it contains default and static methods, as long as the interface only contains a single unimplemented (abstract) method. Here is a video version of this little section
+
+With lambda expressions the type can often be inferred from the surrounding code. For instance, the interface type of the parameter can be inferred from the method declaration of the addStateListener() method (the single method on the StateChangeListener interface). This is called type inference. The compiler infers the type of a parameter by looking elsewhere for the type - in this case the method definition. Here is the example from the beginning of this text, showing that the StateChangeListener interface is not mentioned in the lambda expression
