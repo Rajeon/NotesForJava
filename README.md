@@ -111,3 +111,6 @@ From Java 8 a Java interface can contain both default methods and static methods
 In other words, an interface is still a functional interface even if it contains default and static methods, as long as the interface only contains a single unimplemented (abstract) method. Here is a video version of this little section
 
 With lambda expressions the type can often be inferred from the surrounding code. For instance, the interface type of the parameter can be inferred from the method declaration of the addStateListener() method (the single method on the StateChangeListener interface). This is called type inference. The compiler infers the type of a parameter by looking elsewhere for the type - in this case the method definition. Here is the example from the beginning of this text, showing that the StateChangeListener interface is not mentioned in the lambda expression
+
+React:
+The main point about React is the ability to define more abstract components out of a model (props) and a state. In this simple contact example, a natural refactoring to do is to define a component to render the contacts. ... The React.js definitions are complex ones, which are hard to translate “as is” in Java
